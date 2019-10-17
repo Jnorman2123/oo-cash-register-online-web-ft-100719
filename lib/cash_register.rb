@@ -5,23 +5,23 @@ class CashRegister
     @total = 0
   end
 
-  def total 
+  def total
 
-  end 
+  end
 
-  def add_item 
+  def add_item
 
-  end 
+  end
 
   def apply_ discount
 
   end
 
-  def items 
+  def items
 
-  end 
+  end
 
   def void_last_transaction
 
-  end 
+  end
 end
