@@ -21,7 +21,9 @@ class CashRegister
   end
 
   def items
-
+    items = []
+    self.add_item(title, price, quantity)
+    items << title
   end
 
   def void_last_transaction
